@@ -1,0 +1,139 @@
+Found Identifier : alpha
+Declared variable-> alpha : 0.000000
+Found Identifier : beta
+Declared variable-> beta : 0.000000
+Found Identifier : x
+Declared variable-> x : 5.45
+Found Identifier : y
+Declared variable-> y : 10.12
+Found Identifier : y
+Found Identifier : x
+bool_expr [>]: 1
+Found Identifier : z
+Found Identifier : x
+Found Identifier : y
+Declared variable-> z : 15.57
+Block Successfully Parsed
+Found Identifier : x
+Expression in if is true
+Updated variable-> x : 10
+Found Identifier : x
+Updated variable-> x : 35
+Found Identifier : p
+Declared variable-> p : 6
+Found Identifier : q
+Declared variable-> q : 5
+Found Identifier : x
+Found Identifier : y
+bool_expr [>]: 1
+Found Identifier : p
+Found Identifier : q
+bool_expr [<]: 0
+bool_expr NOT: 1
+bool_expr AND: 1
+Block Successfully Parsed
+Expression in if is true
+bool_expr [>]: 1
+Block Successfully Parsed
+Block Successfully Parsed
+Expression in if is true
+bool_expr [>]: 1
+Block Successfully Parsed
+bool_expr [<]: 0
+Block Successfully Parsed
+Expression in else if is : trueBlock Successfully Parsed
+Expression in if is true
+bool_expr [>]: 1
+Found Identifier : x
+bool_expr [>]: 0
+Block Successfully Parsed
+Block Successfully Parsed
+Expression in if is false
+Block Successfully Parsed
+Block Successfully Parsed
+Expression in if is true
+Found Identifier : x
+Found Identifier : y
+Value of expression: 45.12
+Found Identifier : x
+Found Identifier : y
+Value of expression: 24.88
+Found Identifier : x
+Found Identifier : y
+Value of expression: 354.2
+Found Identifier : x
+Found Identifier : y
+Value of expression: 3.458498024
+factorial value !120
+Value of expression: 120
+Found Identifier : x
+Found Identifier : y
+To the power value 4.226380645e+15
+Value of expression: 4.226380645e+15
+Found Identifier : x
+ sin value 0.5735776065
+Value of expression: 0.5735776065
+Found Identifier : x
+ cos value 0.819151225
+Value of expression: 0.819151225
+Found Identifier : x
+ tan value 0.700209667
+Value of expression: 0.700209667
+Found Identifier : x
+ ln value 3.555348061
+Value of expression: 3.555348061
+Found Identifier : gamma
+Declared variable-> gamma : 0.000000
+Found Identifier : i
+Found Identifier : i
+Found Identifier : i
+Found Identifier : gamma
+Updated variable-> gamma : 5
+Block Successfully Parsed
+FOR : value of i = 0
+FOR : value of i = 1
+FOR : value of i = 2
+FOR : value of i = 3
+FOR : value of i = 4
+FOR : value of i = 5
+Found Identifier : x
+Found Identifier : y
+Found Identifier : x
+Found Identifier : y
+Successfully created function : func_add with 2 variables
+Found Identifier : x
+Updated variable-> x : 6
+Found Identifier : x
+Found Identifier : xyz
+Declared variable-> xyz : 10
+Block Successfully Parsed
+Case 5 is done
+Found Identifier : abc
+Variable not declared!
+Found Identifier : def
+Variable not declared!
+bool_expr [>]: 0
+Found Identifier : delta
+Declared variable-> delta : 15
+Block Successfully Parsed
+Expression in if is false
+Block Successfully Parsed
+Case 6 is done
+Successful Switch Statement with 
+	variable x
+	case : 6
+Found Identifier : alpha
+Already Declared variable : alpha !
+Found Identifier : cba
+Variable cba not declared!
+
+
+Total Keywords is : 27
+Total Function_calls is : 1
+Total Identifiers is : 49
+Total Operators is : 40
+Total Integers is : 25
+Total Floats is : 2
+Total Spaces is : 184
+Total Newlines is : 132
+Total Punctuations is : 85

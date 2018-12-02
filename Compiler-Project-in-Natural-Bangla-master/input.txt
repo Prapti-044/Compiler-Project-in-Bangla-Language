@@ -1,0 +1,132 @@
+// Declaration with no value
+purno alpha #
+vogno beta #
+
+// Declaration with value
+purno x [=] 5.45 #
+vogno y [=] 10.12 #
+
+// Conditions
+jodi ( y [>] x )
+LB
+    purno z [=] x [+] y #
+    // And other statements
+RB
+
+// Assignments
+x [=] 10 #
+x [=] 15 [+] 20 #
+
+
+// Conditions with complex boolean expressions
+
+purno p [=] 6 #
+purno q [=] 5 #
+
+jodi ( x [>] y [&&] [!] p [<] q )
+LB
+    // Statements
+RB
+
+// If with else
+jodi ( 6 [>] 5 )
+LB
+    // Statements
+RB
+nahole
+LB
+    // Statements
+RB
+
+
+// If with else if and else
+
+jodi ( 6 [>] 5 )
+LB
+    // Statements
+RB
+nahole_jodi ( 6 [<] 5 )
+LB
+    // Statements
+RB
+nahole
+LB
+    // Statements
+RB
+
+// Nested if else  
+
+jodi ( 10 [>] 5 )
+LB
+    jodi ( 10 [>] x )
+    LB
+        // Statements
+    RB
+    nahole
+    LB
+        // Statements
+    RB
+RB
+nahole
+LB
+    // Statements
+RB
+
+
+// Operators
+x [+] y #
+x [-] y #
+x [*] y #
+x [/] y #
+
+// Advanced Operators
+5 fact #
+x pow y #
+x sine #
+x cos #
+x tan #
+x ln #
+
+// Loop
+purno gamma #
+
+lup ( i [=] 0 # i [<=] 5 # i [++] )
+LB
+    gamma [=] 5 #
+RB
+
+//Function
+
+func_add ( x ar y )
+LB
+    return x [+] y #
+RB
+
+//Switch
+
+x [=] 6 #
+borton ( x )
+  kase 5
+  LB
+    purno xyz [=] 10 #
+  RB
+  kase 6
+  LB
+    jodi ( abc [>] def )  // inserted if in switch, if you're wondering its possible in my language :)
+    LB
+      purno delta [=] 15 #
+    RB
+  RB
+RB
+
+
+// Error
+
+// declared previously
+purno alpha [=] 10 #
+
+// Undeclared variable
+cba [=] 5 #
+
+
+

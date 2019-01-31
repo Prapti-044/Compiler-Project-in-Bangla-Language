@@ -16,7 +16,7 @@ In my project, I have gone done two phases. That are
 
 ## Lexical Analysis
 
-I have used flex to generate token from the string of yytext. Then i returned those to the bison file for Syntax Analysis.
+I have used flex to generate token from the string of yytext. Then I returned those to the bison file for Syntax Analysis.
 
 ## Syntax Analysis
 
@@ -40,12 +40,15 @@ struct valueid {
 ## Getting Started
 
 Start from here: https://github.com/Prapti-044/Compiler-Project-in-Bangla-Language
+
 Install pre-requisite dependencies
 
 ### Prerequisites
 
 [Bison](http://bison-project.eu/)
+
 [Flex](https://flex.com/)
+
 Any kind of Text Editor
 
 ## Versioning
@@ -56,7 +59,11 @@ bison version 3.0.4
 ## Authors
 
 Shadmaan Hye Prapti
+
 praptishadmaan@gmail.com
+
 Student at Department of Computer Science and Engineering
+
 Khulna University of Engineering & Technology, Khulna
+
 Bangladesh
